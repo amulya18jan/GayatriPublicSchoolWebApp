@@ -6,7 +6,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="logo-container">
                 <img src={logo} alt="Gayatri Public School Logo" />
-                <h2>Gayatri Public School</h2>
+                <h2>GAYATRI PUBLIC SCHOOL</h2>
             </div>
             <div className="nav-links">
                 <Link to="/">Home</Link>
