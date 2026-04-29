@@ -14,7 +14,11 @@ function Navbar() {
                 <Link to="/admission">Admission</Link>
                 <Link to="/contact">Contact-Us</Link>
             </div>
+            <div className="logo-containerr-right">
+                <img className="right-side-logo" src={logo} alt="Gayatri Public School Logo" />
+            </div>
         </nav>
+
     );
 }
 export default Navbar;
