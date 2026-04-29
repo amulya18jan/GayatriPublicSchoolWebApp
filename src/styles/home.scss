@@ -1,10 +1,10 @@
 .hero {
   position: relative;
-  height: 91.5vh;
+  height: 89vh;
 
-  background-image: url("../assets/GPSBuilding.webp");
-  background-size: cover;
-  background-position: center 21%;
+  background-size: 100%;
+  background-position: center 20%;
+  transition: background-image 1s ease-in-out; // 🔥 added
 
   display: flex;
   flex-direction: column;
