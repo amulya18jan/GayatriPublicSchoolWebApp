@@ -46,3 +46,13 @@
     }
   }
 }
+.logo-containerr-right{
+  display: flex;
+  align-items: center;
+  .right-side-logo{
+    height: 50px; // 🔥 fixed size (not %)
+    width: 50px;
+    object-fit: contain;
+    
+  }
+}
