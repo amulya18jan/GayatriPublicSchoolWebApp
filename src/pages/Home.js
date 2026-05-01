@@ -23,7 +23,11 @@ function Home() {
                 <p>Building Future Leaders of Tomorrow</p>
                 <button>Apply Now</button>
             </div>
+            <div>
+
+            </div>
         </div >
+
     );
 }
 export default Home;
