@@ -1,0 +1,25 @@
+.intro {
+  position: fixed;
+  inset: 0;
+  background: whitesmoke;
+  color: #086dd1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
+
+  h1 {
+    font-family: 'Noto Serif Devanagari', serif;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 2px; 
+    transition: transform 2.7s ease, opacity 3.2s ease;
+  }
+}
+
+.intro.zoom h1 {
+  transform: scale(2.5);
+  opacity: 0;
+}
