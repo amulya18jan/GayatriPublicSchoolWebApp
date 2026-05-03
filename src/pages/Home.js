@@ -20,11 +20,11 @@ function Home() {
                 style={{ backgroundImage: `url(${images[current]})` }}
             >
                 <h1>Welcome to Gayatri Public School</h1>
-                <p>Building Future Leaders of Tomorrow</p>
+                <p>Learning today for a bright future</p>
                 <button>Apply Now</button>
             </div>
             <div>
-
+                <h1>Cards</h1>
             </div>
         </div >
 
