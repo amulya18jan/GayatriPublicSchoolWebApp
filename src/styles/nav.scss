@@ -3,9 +3,13 @@
   justify-content: space-between;
   align-items: center; // 🔥 important
   padding: 10px 30px;
-  background-color:whitesmoke;
+  background-color: rgb(255, 230, 0);
   color: #086dd1;
    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+   position: sticky;
+   position: sticky;
+  top: 0;            // 🔥 REQUIRED
+  z-index: 1000;
 }
 
 .logo-container {
